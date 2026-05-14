@@ -5,7 +5,7 @@
 }
 
 
-p{
+body{
     font-family: CookieRun, Geneva, Tahoma, sans-serif;
 }
 
@@ -13,7 +13,7 @@ main{
     position: relative;
     margin-left: 10%;
     margin-right: 10%;
-    
+    font-family: CookieRun, Geneva, Tahoma, sans-serif;
     display: block;
     color:aliceblue;
     background-color: #dee78f;
@@ -25,6 +25,7 @@ main a{
 }
 
 h1{
+    font-family: CookieRun, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 .navbar ul{
