@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    function checkPassword() {
+      var password = document.getElementById("passwordField").value;
+      if (password === "TimeKeeperCookie") {
+        document.getElementById("loginBox").style.display = "none";
+        document.getElementById("protectedContent").style.display = "block";
+      } else {
+        alert("Wrong password!");
+      }
+    }
+  </script>
+
+  <div id="loginBox">
+    <input type="password" id="passwordField" placeholder="Enter Password">
+    <button onclick="checkPassword()">Submit</button>
+  </div>
+
+  <div id="protectedContent" style="display:none;">
+    <h1>UGGGHGHHHH TIMEKEEPER COOKIE</h1>
+    <img src="imagebin/images (1).jpg" alt="timekeeper" title="timekeeper" height="560px" position="absolute" top=10px left=30px>
+    <img src="imagebin/images.jpg" alt="timekeeper" title="timekeeper" height="300px">
+    <img src="imagebin/Timekeeper_Cookie.webp" alt="timekeeper" title="timekeeper" height="300px">
+    <img src="imagebin/Timekeeper_illustration.webp" alt="timekeeper" title="timekeeper" height="400px">
+  </div>
+</body>
+</html>

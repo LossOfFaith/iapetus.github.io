@@ -1,9 +1,25 @@
+
+@font-face {
+    font-family: Lexend;
+    src: url(fonts/Lexend[wght].ttf);
+}
+
+@font-face {
+    font-family: CookieRun;
+    src: url(fonts/CookieRun_Regular.ttf);
+}
+
 body{
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lexend, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: Lexend, Geneva, Tahoma, sans-serif;
 }
 
 main{
+    position: relative;
     margin-left: 10%;
     margin-right: 10%;
     
@@ -61,4 +77,10 @@ text-align: center;
 .gallery .description{
     padding: 10px;
     text-align: center;
+}
+
+.lazy{
+    position: absolute;
+    top: 20%;
+    left: 85%;
 }
