@@ -1,25 +1,9 @@
-
-@font-face {
-    font-family: Lexend;
-    src: url(fonts/Lexend[wght].ttf);
-}
-
-@font-face {
-    font-family: CookieRun;
-    src: url(fonts/CookieRun_Regular.ttf);
-}
-
 body{
     margin: 0;
-    font-family: Lexend, Geneva, Tahoma, sans-serif;
-}
-
-p{
-    font-family: Lexend, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main{
-    position: relative;
     margin-left: 10%;
     margin-right: 10%;
     
@@ -81,19 +65,16 @@ text-align: center;
 
 .slider{
     position: relative;
-    display: grid;
-    height: 100%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
 }
 .slider img{
-    max-width: 100%;
-    max-height: 100vh;
+    width: 100%;
     display: none;
 }
 img.displaySlide{
-    max-width: 100%;
-    max-height: 100vh;
+    display: block;
     animation-name: fade;
     animation-duration: 1.5s;
 }
