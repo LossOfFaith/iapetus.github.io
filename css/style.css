@@ -1,9 +1,25 @@
+
+@font-face {
+    font-family: Lexend;
+    src: url(fonts/Lexend[wght].ttf);
+}
+
+@font-face {
+    font-family: CookieRun;
+    src: url(fonts/CookieRun_Regular.ttf);
+}
+
 body{
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lexend, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: Lexend, Geneva, Tahoma, sans-serif;
 }
 
 main{
+    position: relative;
     margin-left: 10%;
     margin-right: 10%;
     
@@ -61,44 +77,4 @@ text-align: center;
 .gallery .description{
     padding: 10px;
     text-align: center;
-}
-
-.slider{
-    position: relative;
-    display: grid;
-    height: 100%;
-    margin: auto;
-    overflow: hidden;
-}
-.slider img{
-    max-width: 100%;
-    max-height: 100vh;
-    display: none;
-}
-img.displaySlide{
-    max-width: 100%;
-    max-height: 100vh;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-.slider button{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2rem;
-    padding: 10px 15px;
-    background-color: hsla(0, 0%, 0%, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-.prev{
-    left: 0;
-}
-.next{
-    right: 0;
-}
-@keyframes fade {
-    from {opacity: .5}
-    to {opacity: 1}
 }
