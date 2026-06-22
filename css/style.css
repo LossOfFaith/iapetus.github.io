@@ -63,6 +63,10 @@ text-align: center;
     text-align: center;
 }
 
+.comicBG{
+    color:hsl(0%, 4%, 10%)
+}
+
 .slider{
     position: relative;
     height: 100vh;
